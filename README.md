@@ -138,7 +138,7 @@ If you like this project, please give it a star, and if you would love to tell m
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank [Microverse](https://www.microverse.org/) for giving this opportunity to learn.
+- I would like to thank Microverse for giving this opportunity to learn.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
