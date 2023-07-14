@@ -31,7 +31,9 @@
 
 ## Key Features
 
-- Ruby syntax and use of linters
+- It will show the list of posts
+- Readers will be able to add comments
+- Readers will be able to alike posts
 
 <!-- GETTING STARTED -->
 
@@ -109,7 +111,8 @@ rubocop -A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] More complex ruby commands.
+- [ ] Add API endpoints.
+- [ ] Add API documentation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
