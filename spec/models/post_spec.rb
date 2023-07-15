@@ -19,10 +19,10 @@ RSpec.describe Post, type: :model do
     end
   end
   describe '#update_posts_counter method' do
-  let(:user) { create(:user) }
+    let(:user) { create(:user) }
     it 'it increments the posts_counter of a user' do
       user = User.create(name: 'Seyi', photo: 'https://unsplash.com/photos/F_-0BxGuVvo',
-                        bio: 'Teacher from Germany.', posts_counter: 1)
+                         bio: 'Teacher from Germany.', posts_counter: 1)
       Post.create(author_id: user.id, title: 'Hello', text: 'This is my first post')
 
       expect(user.posts_counter).to eql 1
