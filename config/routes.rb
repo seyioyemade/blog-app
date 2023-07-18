@@ -4,8 +4,9 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  root 'users#post1'
-  get "/users/745", to: "users#post2"
-  get "/users/745/posts", to: "users#post4"
-  get "/users/745/posts/3", to: "users#post4"
+  root 'users#show'
+
+  resources :users, only: %i[index show] do
+    resources :posts, only: %i[index show]
+  end
 end
