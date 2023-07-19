@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>User names</h1>
+
+<div id="user_names">
+  <% @user_names.each do |user_name| %>
+    <%= render user_name %>
+    <p>
+      <%= link_to "Show this user name", user_name %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New user name", new_user_name_path %>
